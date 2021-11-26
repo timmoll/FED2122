@@ -41,7 +41,7 @@ De site van Daily Paper namaken
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Daily Paper  
-<img src="images/dailypaperpagina1.png" width="375px" alt="Overzicht kleding winter 2021 men holiday">
+<img src="images/dailypaperpagina3.png" width="375px" alt="Overzicht kleding winter 2021 holiday">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Daily Paper  
