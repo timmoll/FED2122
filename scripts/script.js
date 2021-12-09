@@ -1,5 +1,5 @@
 // JavaScript Document
-
+// menu
 var uitgeklapt = document.querySelector(".dpmenu");
 var ingeklapt = document.querySelector(".kruis");
 var menu = document.querySelector(".menu")
