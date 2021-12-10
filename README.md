@@ -144,14 +144,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+-  Voice assistant begint bij menu knop, gaat die dan voorlezen terwijl die ingeklapt is
+-  Winkelwagen link
+-  Zoekknop button maken
+-  Menu kan niet openen met VA 
+-  In menu van worldwide naar kruisje
+-  Geen div in button , doe span
+-  Bij email zegt VA tekstveld, maar niet specifiek e-mailadres invullen
+-  Help services explore moet nog button worden.
+-  Verschillende States met de knoppen
+-  Afbeeldingen homepage nog niet klikbaar
+-  Menu wordt geselecteerd terwijl die nog ingeklapt is
 
-#### Titel eerste bevinding
+#### Winkelwagen link maken
 Hier korte omschrijving (met indien nodig een afbeelding)
+Het SVG'tje van het winkelmandje is nog niet te bereiken via de tab knop.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+linkje toe voegen aan de svg zodat hij wel te bereiken is met tab
 
-
-#### Titel tweede bevinding. 
+#### Zoekknop button maken
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)

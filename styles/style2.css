@@ -15,6 +15,10 @@ html {
   --font-family-text: avenir, arial, sans-serif;
   --font-size: 0.823125em;
   --font-weight: normal;
+  --background-color: #fff;
+  --border-color: #fff;
+  --small-font: 0.6875em;
+  --smallfont-weight: 300;
 }
 
 body {
@@ -135,7 +139,7 @@ header nav ul section:first-of-type {
   width: 100%;
   height: 50em;
   background-color: #ffffff;
-  transform: translateX(-30em);
+  transform: translateX(-100%);
   transition: .5s;
   z-index: 1;
   float: left;
@@ -197,8 +201,9 @@ header nav ul section:first-of-type {
 
 main {
   display: flex;
+  overflow-x: hidden;
   flex-wrap: wrap;
-
+  
 }
 
 main nav {
@@ -248,7 +253,7 @@ main section img {
   display: flex;
   float: left;
   width: 100%;
-  height: 21.5625em;
+  
 }
 
 main section a {
@@ -406,49 +411,63 @@ main article ul{
   margin: 0;
 }
 
+
+main article ul li a img {
+  position: relative;
+}
+
+main article ul:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  animation: mymove 5s infinite;
+}
+
 main article ul li {
   list-style: none;
 }
 main article ul li img:nth-of-type(1) {
-  max-width: 100%;
-  height: auto;
+  width: 100vw;
+  max-width: unset;
 
 }
 
 
 main article ul li img:nth-of-type(2) {
-  max-width: 100%;
+  
+  width: 100vw;
+  max-width: unset;
   height: auto;
 
 }
 
-.slideshowhome img:nth-of-type(1) {
-  max-width: 100%;
-  height: auto;
+main article ul li img:nth-of-type(3) {
+  width: 100vw;
+  max-width: unset;
+
+}
+main article ul li img:nth-of-type(4) {
+  width: 100vw;
+  max-width: unset;
+
+}
+main article ul li img:nth-of-type(5) {
+  width: 100vw;
+  max-width: unset;
 
 }
 
-.slideshowhome img:nth-of-type(2) {
-  max-width: 100%;
-  height: auto;
+
+
+
+@keyframes mymove {
+  0%   {transform: translateX(-50%);}
+  20% {transform: translateX(0%);}
+  60% {transform: translateX(0%);}
+  80% {transform: translateX(-50%);}
+  100% {transform: translateX(-50%);}
 
 }
 
-#slider ul {
-  position: relative;
-  list-style: none;
-  height: 100%;
-  width: 10000%;
-  padding: 0;
-  margin: 0;
-  transition: all 750ms ease;
-  left: 0;
-}
-
-#slider ul li {
-  position: relative;
-  height: 100%;
-
-  float: left;
-}
 
