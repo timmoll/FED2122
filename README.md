@@ -6,7 +6,6 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-<link href="styles/style2.css" rel="stylesheet">
 
 
 
@@ -57,10 +56,10 @@ Daily Paper
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="./images/breakdown_dailypaper-01" width="375px" alt="breakdown van de hele pagina">
+<img src="https://github.com/timmoll/FED2122/blob/6526b0dbf46514f60497471c6b2300bcfc07a540/images/breakdown_dailypaper-01.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="./images/breakdown_dailypaper-02.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="https://github.com/timmoll/FED2122/blob/6526b0dbf46514f60497471c6b2300bcfc07a540/images/breakdown_dailypaper-02.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
