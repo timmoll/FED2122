@@ -6,7 +6,7 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-
+<link href="styles/style2.css" rel="stylesheet">
 
 
 
@@ -22,7 +22,7 @@ Tim Moll
 Blauwe piste
 
 #### Je focus:
-surface plane
+Surface Plane
  
 </details>
 
@@ -41,11 +41,11 @@ De site van Daily Paper namaken
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Daily Paper  
-<img src="images/dailypaperpagina3.png" width="375px" alt="Overzicht kleding winter 2021 holiday">
+<img src="./images/dailypaper1" width="375px" alt="Homepage van Daily Paper">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Daily Paper  
-<img src="images/dailypaperpagina2.png" width="375px" alt="Detailpagina Foxtrot Brown Sherpa Captain Hoody">
+<img src=".images/dailypaper2" width="375px" alt="Overzichtspagina Holiday FW21">
  
 </details>
 
@@ -57,13 +57,10 @@ Daily Paper
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="./images/breakdown_dailypaper-01" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="./images/breakdown_dailypaper-02.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
