@@ -145,8 +145,8 @@ header nav section button {
 
 header nav ul section:first-of-type {
   left: 1em;
-  border-bottom: 1px var(--footer-border-color) solid;
-  border-bottom-width: 1px;
+  border-bottom: 0.0625em var(--footer-border-color) solid;
+  border-bottom-width: 0.0625em;
   border-bottom-style: solid;
 }
 
@@ -155,7 +155,7 @@ header nav ul section:first-of-type {
 
 .menu>section:last-of-type {
   width: 100%;
-  border-top: 1px var(--menu-color) solid;
+  border-top: 0.0625em var(--menu-color) solid;
   padding: 1em 0;
 }
 
@@ -249,6 +249,7 @@ main {
 main nav {
   margin: 0;
   padding: 0;
+  width: 100%
 }
 
 
@@ -383,7 +384,7 @@ main article ul li:nth-of-type(3) a {
 
 main article ul li a:nth-of-type(2) {
   position: absolute;
-  font-size: 11px;
+  font-size: 0.6875em;
   line-height: 1.625em;
   font-weight: 300;
   height: auto;
@@ -392,21 +393,21 @@ main article ul li a:nth-of-type(2) {
   border-color: var(--border-color);
   text-decoration: none;
   font-family: var(--font-family-text);
-  padding: 10px 24px 7px;
+  padding: 0.625em 1.5em 0.4375em;
   min-width: 7.8125em;
   bottom: 2em;
   left: 3em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .05em;
-  border: 2px solid transparent;
+  border: 0.125em solid transparent;
   
 }
 
 
 main article ul li a:nth-of-type(3) {
   position: absolute;
-  font-size: 11px;
+  font-size: 0.6875em;
   line-height: 1.625em;
   font-weight: 300;
   height: auto;
@@ -416,14 +417,14 @@ main article ul li a:nth-of-type(3) {
   margin-top: 5em;
   text-decoration: none;
   font-family: var(--font-family-text);
-  padding: 10px 26px 8px;
+  padding: 0.625em 1.625em 0.5em;
   min-width: 7.8125em;
   bottom: 1.375em;
   left: 55%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .05em;
-  border: 2px solid transparent;
+  border: 0.125em solid transparent;
 }
 
 
@@ -569,8 +570,8 @@ summary{
   display: flex;
   width: 100%;
   padding: 0.5em 0;
-  border-bottom: 1px var(--footer-border-color) solid;
-  border-bottom-width: 1px;
+  border-bottom: 0.0625em var(--footer-border-color) solid;
+  border-bottom-width: 0.0625em;
   border-bottom-style: solid;
   align-items: center;
   list-style: none;
